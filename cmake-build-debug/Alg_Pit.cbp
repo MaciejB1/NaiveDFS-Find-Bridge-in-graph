@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Alg_Pit"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naive_list">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/naive_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 naive_list"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naive_list/fast">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/naive_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 naive_list/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naive_matrix">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/naive_matrix.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 naive_matrix"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="naive_matrix/fast">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/naive_matrix.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 naive_matrix/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dfs_matrix">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/dfs_matrix.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 dfs_matrix"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dfs_matrix/fast">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/dfs_matrix.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 dfs_matrix/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dfs_list">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/dfs_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 dfs_list"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="dfs_list/fast">
+				<Option output="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/dfs_list.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include/c++/backward"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/include-fixed"/>
+					<Add directory="C:/Program Files/mingw-w64/x86_64-7.1.0-posix-seh-rt_v5-rev0/mingw64/bin/../lib/gcc/x86_64-w64-mingw32/7.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 dfs_list/fast"/>
+					<CompileFile command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/PROGRA~1/MINGW-~1/X86_64~1.0-P/mingw64/bin/mingw32-make.exe -f &quot;C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/dfs_list.cpp">
+			<Option target="dfs_list"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/dfs_matrix.cpp">
+			<Option target="dfs_matrix"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/graph_list.cpp">
+			<Option target="naive_list"/>
+			<Option target="dfs_list"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/graph_list.h">
+			<Option target="naive_list"/>
+			<Option target="dfs_list"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/graph_matrix.cpp">
+			<Option target="naive_matrix"/>
+			<Option target="dfs_matrix"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/graph_matrix.h">
+			<Option target="naive_matrix"/>
+			<Option target="dfs_matrix"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/naive_list.cpp">
+			<Option target="naive_list"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/naive_matrix.cpp">
+			<Option target="naive_matrix"/>
+		</Unit>
+		<Unit filename="C:/Users/Maciek/Desktop/Alg_Pit/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

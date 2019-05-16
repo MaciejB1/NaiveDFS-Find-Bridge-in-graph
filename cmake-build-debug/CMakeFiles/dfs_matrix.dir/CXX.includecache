@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Maciek/Desktop/Alg_Pit/dfs_matrix.cpp
+iostream
+-
+vector
+-
+graph_matrix.h
+C:/Users/Maciek/Desktop/Alg_Pit/graph_matrix.h
+
+C:/Users/Maciek/Desktop/Alg_Pit/graph_matrix.cpp
+graph_matrix.h
+C:/Users/Maciek/Desktop/Alg_Pit/graph_matrix.h
+
+C:/Users/Maciek/Desktop/Alg_Pit/graph_matrix.h
+iostream
+-
+vector
+-
+cassert
+-
+ctime
+-
+climits
+-
+cfenv
+-
+windows.h
+-
+iomanip
+-
+

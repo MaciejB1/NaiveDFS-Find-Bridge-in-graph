@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Maciek/Desktop/Alg_Pit/main.cpp
+iostream
+-
+set
+-
+map
+-
+vector
+-
+random
+-
+ctime
+-
+utility
+-
+cassert
+-
+

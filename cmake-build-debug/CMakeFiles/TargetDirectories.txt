@@ -1,0 +1,6 @@
+C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/CMakeFiles/naive_list.dir
+C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/CMakeFiles/naive_matrix.dir
+C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/CMakeFiles/dfs_matrix.dir
+C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Maciek/Desktop/Alg_Pit/cmake-build-debug/CMakeFiles/dfs_list.dir
